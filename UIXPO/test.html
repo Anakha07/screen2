@@ -47,7 +47,7 @@
 
 
               // create MultiSelect from select HTML element
-              var required = $("#required").kendoMultiSelect({
+              var required = $(".required").kendoMultiSelect({
                   itemTemplate: "<input type='checkbox'/> #:data.text#",
                   autoClose: false,
                   dataBound: function () {
@@ -115,7 +115,7 @@
                               <span class="fa fa-calendar errspan"></span>
                            </TD>
                            <TD style="height:25px;">
-                              <select id="required" multiple="multiple" data-placeholder="Select..." >
+                              <select class="required" multiple="multiple" data-placeholder="Select..." >
 
                                  <option class="searchstyle">Mon</option>
                                  <option class="searchstyle">Tue</option>
@@ -169,7 +169,7 @@
                               <span class="fa fa-calendar errspan"></span>
                            </TD>
                            <TD style="height:25px;">
-                              <select id="required" multiple="multiple" data-placeholder="Select..." style="float:left;" >
+                              <select class="required" multiple="multiple" data-placeholder="Select..." >
 
                                  <option>Mon</option>
                                  <option class="searchstyle">Tue</option>
