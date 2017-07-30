@@ -108,9 +108,14 @@ transform: scale(2,1.6);
 
 
        .k-list .k-item {
-       }
+                  margin-right: 25px;
+                  position: relative;
+              }
 
-       .k-item input {
-       }
+            .k-item input {
+              position: absolute;
+              left: 0;
+              width:20px;
 
-       
+
+            }
