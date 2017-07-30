@@ -1,0 +1,116 @@
+.modal-title{
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 16px;
+	text-align: left;
+}
+.tabelem{
+  font-family: Arial;
+  font-size: 12px;
+
+}
+.widname1{
+  padding-right: 2.5px;
+  padding-left: 5px;
+}
+.widname2{
+  padding-left: 2.5px;
+  padding-right: 5px;
+}
+.widname3{
+   white-space: nowrap ;
+ padding-left: 15px;
+  /*padding-right: 9.5px;*/
+}
+.widname4{
+
+  padding-left: 15px;
+}
+.widname5{
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.widname6{
+  padding-right: 5px;
+  padding-left: 5px;
+}
+*{
+  font-weight: bold;
+}
+h2 {
+  text-align: center;
+}
+
+
+input {
+    line-height: 20px;
+}
+input,select {
+    width: 100%;
+    box-sizing: border-box;
+
+}
+table{
+  width:100%;
+  table-layout: fixed;
+
+}
+
+table tr{
+ /*hr after every row*/
+border-bottom: 0.1px solid #bfbdbd;
+
+}
+td {
+
+  padding: 5px;
+}
+
+
+.fa-ellipsis-v{
+padding-left: 14px;
+
+/*width and height of icon*/
+transform: scale(2,1.6);
+}
+
+/*for styling calendar and clock icon*/
+.errspan {
+
+    float: right;
+    margin-right: 6px;
+    margin-top: -20px;
+    position: relative;
+    z-index: 2;
+}
+
+.scheduler{
+  color: #07A4ED;
+   font-weight: lighter;
+   font-family: Arial;
+   font-size: 12px;
+}
+
+.close{
+  opacity: 20;
+}
+.searchstyle{
+  font-family: Arial;
+  font-size: 12px;
+
+
+}
+
+
+[rel="popover"]{
+           cursor: pointer;
+           display:inline-block; /* chrome-fix */
+       }
+
+
+       .k-list .k-item {
+       }
+
+       .k-item input {
+       }
+
+       
