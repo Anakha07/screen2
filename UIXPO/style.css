@@ -1,121 +1,146 @@
-.modal-title{
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-	font-size: 16px;
-	text-align: left;
+.modal-title {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: left;
 }
-.tabelem{
-  font-family: Arial;
-  font-size: 12px;
-
+.tabelem {
+    font-family: Arial;
+    font-size: 12px;
 }
-.widname1{
-  padding-right: 2.5px;
-  padding-left: 5px;
+.widname1 {
+    padding-right: 2.5px;
+    padding-left: 5px;
 }
-.widname2{
-  padding-left: 2.5px;
-  padding-right: 5px;
+.widname2 {
+    padding-left: 2.5px;
+    padding-right: 5px;
 }
-.widname3{
-   white-space: nowrap ;
- padding-left: 15px;
-  /*padding-right: 9.5px;*/
+.widname3 {
+    white-space: nowrap;
+    padding-left: 15px;
+    /*padding-right: 9.5px;*/
 }
-.widname4{
-
-  padding-left: 15px;
+.widname4 {
+    padding-left: 15px;
 }
-.widname5{
-  padding-right: 5px;
-  padding-left: 5px;
+.widname5 {
+    padding-right: 5px;
+    padding-left: 5px;
 }
-.widname6{
-  padding-right: 5px;
-  padding-left: 5px;
+.widname6 {
+    padding-right: 5px;
+    padding-left: 5px;
+    width:65px;
 }
-*{
-  font-weight: bold;
+* {
+    font-weight: bold;
 }
 h2 {
-  text-align: center;
+    text-align: center;
 }
-
-
 input {
     line-height: 20px;
 }
-input,select {
+input,
+select {
     width: 100%;
     box-sizing: border-box;
-
+    padding-left: 5px;
 }
-table{
-  width:100%;
-  table-layout: fixed;
-
+table {
+    width: 100%;
+    table-layout: fixed;
 }
+table tr {
+    /*hr after every row*/
 
-table tr{
- /*hr after every row*/
-border-bottom: 0.1px solid #bfbdbd;
-
+    border-bottom: 0.1px solid #bfbdbd;
 }
 td {
-
-  padding: 5px;
+    padding: 5px;
 }
+.fa-ellipsis-v {
+    padding-left: 14px;
+    /*width and height of icon*/
 
-
-.fa-ellipsis-v{
-padding-left: 14px;
-
-/*width and height of icon*/
-transform: scale(2,1.6);
+    transform: scale(2, 1.6);
 }
-
 /*for styling calendar and clock icon*/
-.errspan {
 
+.errspan {
     float: right;
     margin-right: 6px;
-    margin-top: -20px;
+    margin-top: -19px;
     position: relative;
     z-index: 2;
 }
-
-.scheduler{
-  color: #07A4ED;
-   font-weight: lighter;
-   font-family: Arial;
-   font-size: 12px;
+.scheduler {
+    color: #07A4ED;
+    font-weight: lighter;
+    font-family: Arial;
+    font-size: 12px;
 }
-
-.close{
-  opacity: 20;
+.close {
+    opacity: 20;
 }
-.searchstyle{
-  font-family: Arial;
-  font-size: 12px;
-
-
+.searchstyle {
+    font-family: Arial;
+    font-size: 12px;
 }
+[rel="popover"] {
+    cursor: pointer;
+    /*display:inline-block; /* chrome-fix */
 
-
-[rel="popover"]{
-           cursor: pointer;
-           display:inline-block; /* chrome-fix */
-       }
-
-
-       .k-list .k-item {
-                  margin-right: 25px;
-                  position: relative;
-              }
-
-            .k-item input {
-              position: absolute;
-              left: 0;
-              width:20px;
-
-
-            }
+    */
+}
+.popover-content {
+    font-weight: normal;
+}
+.popover-content:hover {
+    font-weight: bold;
+}
+.popover-title:hover {
+    font-weight: bold;
+}
+.k-list .k-item {
+    position: relative;
+}
+.k-item input {
+    position: relative;
+    left: 0;
+    width: 20px;
+}
+.popover {
+    box-sizing: border-box;
+    max-width: 800px;
+    max-height: 80px;
+    white-space: nowrap;
+}
+.k-list>.k-state-focused.k-state-selected,
+.k-listview>.k-state-focused.k-state-selected,
+.k-state-focused.k-state-selected,
+td.k-state-focused.k-state-selected {
+    color: #fff;
+    background-color: #C0C0C0;
+    border-color: #C0C0C0;
+}
+.k-draghandle.k-state-selected:hover,
+.k-ghost-splitbar-horizontal,
+.k-ghost-splitbar-vertical,
+.k-list>.k-state-highlight,
+.k-list>.k-state-selected,
+.k-marquee-color,
+.k-panel>.k-state-selected,
+.k-scheduler .k-scheduler-toolbar .k-state-selected,
+.k-scheduler .k-today.k-state-selected,
+.k-state-selected,
+.k-state-selected:link,
+.k-state-selected:visited {
+    color: #2c2d30 !important;
+    background-color: #d7dee8!important;
+    border-color: #d7dee8!important;
+}
+.k-autocomplete>.k-i-close,
+.k-multiselect>.k-multiselect-wrap>.k-i-close {
+    opacity: -3;
+}
